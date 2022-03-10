@@ -106,8 +106,6 @@ button {
 
 .tarjeton {
     position:relative;
-/*     height: calc(90vh - 90px); 
-    width: calc(0.675 * calc(90vh - 90px)) ;  */
     width: 360px;
     height: 535px;    
     background-image: url("../img/tarjeton.jpg");
@@ -154,7 +152,7 @@ button {
 }
 
 .x.partido {
-    background-image: url("/img/x-partido.svg");
+    background-image: url("../img/x-partido.svg");
     position: absolute;
     width: 64.5px;
     height: 70.5px;
