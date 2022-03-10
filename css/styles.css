@@ -45,7 +45,7 @@ button.votar {
 	font-weight: bolder;
 }
 .header .arrow-back {
-	background-image: url("/img/arrow-back.svg");
+	background-image: url("../img/arrow-back.svg");
 	height: 51px;
 	width: 51px;
 	margin-left: 10px;
@@ -99,7 +99,7 @@ button {
     width: calc(0.675 * calc(90vh - 90px)) ;  */
     width: 360px;
     height: 535px;    
-    background-image: url("/img/tarjeton.jpg");
+    background-image: url("../img/tarjeton.jpg");
     background-size: 360px 535px;
     background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ button {
     height: 84px;
     left: calc(180px + 10px);
     top: calc(87px + 10px);
-    background-image: url("/img/tarjeton.jpg");    
+    background-image: url("../img/tarjeton.jpg");    
     background-position: -180px -87px;
     animation-name: tarjeton-partido;
     animation-duration: 0.5s; 
@@ -129,7 +129,7 @@ button {
     height: 14px;
     left: calc(262px + 10px);
     top: calc(94px + 10px); 
-    background-image: url("/img/tarjeton.jpg");    
+    background-image: url("../img/tarjeton.jpg");    
     background-position: -262px -94px; 
     animation-name: tarjeton-numero;
     animation-duration: 0.5s; 
@@ -152,7 +152,7 @@ button {
 }
 
 .x.numero {
-    background-image: url("/img/x-numero.svg");
+    background-image: url("../img/x-numero.svg");
     position: absolute;
 		width: 19.21px;
 		height: 21px;
@@ -163,7 +163,7 @@ button {
 
 .slide.fin {
 	background-color: white;
-	background-image: url("/img/confetti.gif");
+	background-image: url("../img/confetti.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -186,12 +186,11 @@ button {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	background-image: url("/img/esperanza_y_petro.png");
+	background-image: url("../img/esperanza_y_petro.png");
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y: 40vh;
-	background-size: 50%;
-	
+	background-size: 50%;	
 }
 
 .slide.fin img.fill {
