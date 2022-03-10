@@ -27,7 +27,9 @@ button {
 	border-radius: 5px;
 }
 button.votar {
-	float:right;
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
 	
 }
 .header {
@@ -51,6 +53,9 @@ button.votar {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+.container-tarjeton {
+	position: relative;
+}
 .container {
 	flex-grow: 1; 
 	position: relative;
@@ -71,6 +76,12 @@ button.votar {
 	background-color: lightgrey; 
 
 }
+
+.slide  .descripcion {
+	font-size:20px;
+	padding: 25px 15px;
+}
+
 .slide-1 {
 	justify-content: center;
   background-color: white; 
@@ -108,8 +119,8 @@ button {
     position: absolute;
     width: 146px;
     height: 84px;
-    left: calc(180px + 10px);
-    top: calc(87px + 10px);
+    left: calc(180px + 0px);
+    top: calc(87px + 0px);
     background-image: url("../img/tarjeton.jpg");    
     background-position: -180px -87px;
     animation-name: tarjeton-partido;
@@ -127,8 +138,8 @@ button {
     position: absolute;
     width: 28px;
     height: 14px;
-    left: calc(262px + 10px);
-    top: calc(94px + 10px); 
+    left: calc(262px + 0px);
+    top: calc(94px + 0px); 
     background-image: url("../img/tarjeton.jpg");    
     background-position: -262px -94px; 
     animation-name: tarjeton-numero;
@@ -147,8 +158,8 @@ button {
     position: absolute;
     width: 64.5px;
     height: 70.5px;
-    left: calc(180px + 10px);
-    top: calc(93px + 10px);     
+    left: calc(180px + 0px);
+    top: calc(93px + 0px);     
 }
 
 .x.numero {
@@ -157,8 +168,8 @@ button {
 		width: 19.21px;
 		height: 21px;
 		left: 266px;
-    left: calc(266px + 10px);
-    top: calc(89px + 10px);     
+    left: calc(266px + 0px);
+    top: calc(89px + 0px);     
 }
 
 .slide.fin {
