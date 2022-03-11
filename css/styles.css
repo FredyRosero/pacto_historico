@@ -92,8 +92,8 @@ button.votar {
 }
 
 .slide-1 img.tarjetones {
-	width: 70vh;
-	max-width: 70vw;
+	margin-top:10px;
+	height: 60vh;
 }
 
 .slide-6 p {
