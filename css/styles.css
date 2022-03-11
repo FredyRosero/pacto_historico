@@ -198,16 +198,44 @@ button {
 .slide.fin div.fill {
 	position: absolute;
 	bottom: 0;
-	height: 100%;
+	height: 50%;
 	width: 100%;
 	z-index: -1;
 	background-image: url("../img/esperanza_y_petro.png");
 	background-repeat: no-repeat;
 	background-position-x: center;
-	background-position-y: 40vh;
-	background-size: 50%;	
+	background-position-y: top;
+	background-size: cover;	
 }
 
 .slide.fin img.fill {
 	width: 100%;
 }
+
+@media (min-width:900px) {
+	.slide.fin div.fill {
+		height: 100%;
+		width: 80%;
+		background-position-y: 10vw;
+		background-size: 90%;
+	}	
+}
+
+@media (max-height:480px) {
+
+	.slide  .descripcion {
+		font-size:16px;
+		padding: 25px 15px;
+	}
+	
+	.slide.fin div.fill {
+		height: 100%;
+		background-position-y: 20%;
+		background-size: cover;	
+	}
+
+	.slide-1 img.tarjetones {
+		display: none;
+	}
+}
+
