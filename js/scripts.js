@@ -49,7 +49,8 @@
     $( ".slide-5 .votar" ).click(function() {
         $( ".slide-5" ).toggle( "slide",{ direction: "left" }); 
         $( ".slide-7" ).toggle( "slide",{ direction: "right" }); 
-        var audio = new Audio('../snd/cancion.mp3');
+        var urlSnd = document.URL.substr(0,document.URL.lastIndexOf('/'))+'/snd/cancion.mp3'
+        var audio = new Audio(urlSnd);
         audio.play();
     });           
 
