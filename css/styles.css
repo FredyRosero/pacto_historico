@@ -87,9 +87,15 @@ button.votar {
   background-color: white; 
 }
 
-.slide-1 img {
+.slide-1 img.logo {
 	max-width: 90vw;
 }
+
+.slide-1 img.tarjetones {
+	width: 70vh;
+	max-width: 70vw;
+}
+
 .slide-6 p {
 	text-align: center;
 }
