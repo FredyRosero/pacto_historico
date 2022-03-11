@@ -49,6 +49,8 @@
     $( ".slide-5 .votar" ).click(function() {
         $( ".slide-5" ).toggle( "slide",{ direction: "left" }); 
         $( ".slide-7" ).toggle( "slide",{ direction: "right" }); 
+        var audio = new Audio('../snd/cancion.mp3');
+        audio.play();
     });           
 
     /* $(" .slide-1" ).hide();   */
